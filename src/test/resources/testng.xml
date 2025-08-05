@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OrangeHRM Selenium Automation Test Suite" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    
+    <test name="Login Tests">
+        <classes>
+            <class name="com.automation.tests.LoginTest"/>
+        </classes>
+    </test>
+    
+    <listeners>
+        <listener class-name="com.automation.utils.ExtentReportListener"/>
+    </listeners>
+</suite>
